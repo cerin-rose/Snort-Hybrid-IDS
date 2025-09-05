@@ -1,0 +1,55 @@
+# -------------------------
+# Python ignores
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+*.so
+*.dll
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_convert/
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# -------------------------
+# Logs & temporary outputs
+# -------------------------
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# -------------------------
+# CSV & data files
+# (ignore all CSVs except sample_training_data.csv)
+# -------------------------
+*.csv
+!ml_analyzer/sample_training_data.csv
+
+# Snort live logs
+ml_analyzer/live_logs/
+Snort_setup/log/
+
+# -------------------------
+# ML model binaries
+# -------------------------
+ml_analyzer/models/
+*.pkl
+*.joblib
+
+# -------------------------
+# OS/system files
+# -------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
